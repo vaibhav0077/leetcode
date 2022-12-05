@@ -9,12 +9,6 @@ class Solution:
         while fast and fast.next:
             fast = fast.next.next
             slow = slow.next
-        
-        # ans = []
-        # while slow:
-        #     ans.append(slow.val)
-        #     slow = slow.next
-        # print(ans)
         return slow
             
         
