@@ -9,13 +9,11 @@ class Solution:
         
         slow = head
         fast = head
-        cycleFound = False
         while fast and fast.next:
             slow = slow.next
             fast = fast.next.next
             
             if fast == slow:
-                cycleFound = True
                 fast = head
                 break
         else: return None 
