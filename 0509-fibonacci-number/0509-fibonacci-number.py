@@ -1,6 +1,18 @@
 class Solution:
-    def fib(self, n: int) -> int:
+    def fib(self, n):
         
-        if n <= 1 : return n
+        if(n == 0):
+            return n
+        if(n == 1):
+            return 1
         
-        return self.fib(n-1) + self.fib(n-2)
+        a = 1
+        b = 1
+        
+        for i in range(2,n):
+            fib = a + b
+            a = b
+            b = fib
+            
+            
+        return b;
