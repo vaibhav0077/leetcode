@@ -1,22 +1,17 @@
+from typing import List
+
 class Solution:
     def isMonotonic(self, nums: List[int]) -> bool:
-        increasing = False
-        decreasing = False
-        for i in range(len(nums)-1):
-            if nums[i] == nums[i+1]: continue
-            if nums[i] > nums[i+1]:
-                decreasing=True
-            else:
-                increasing=True
-            break
-        for i in range(len(nums)-1):
-            if (increasing and nums[i]<=nums[i+1]) or (decreasing and nums[i] >= nums[i+1]):
-                continue
-            elif (not increasing and not decreasing):
-                return True
-            else:
-                return False
-        return True
-                
+        increasing = decreasing = False
+
+        for i in range(len(nums) - 1):
+            if nums[i] < nums[i + 1]:
+                increasing = True
+            elif nums[i] > nums[i + 1]:
+                decreasing = True
             
-                
+            # If both increasing and decreasing flags are set, it's not monotonic.
+            if increasing and decreasing:
+                return False
+        
+        return True
