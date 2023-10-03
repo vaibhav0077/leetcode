@@ -5,21 +5,21 @@
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
 
-<pre><strong>Input:</strong> nums = [1,2,3,1,1,3]
+<pre style="background-color: rgb(193, 230, 198);"><strong>Input:</strong> nums = [1,2,3,1,1,3]
 <strong>Output:</strong> 4
 <strong>Explanation:</strong> There are 4 good pairs (0,3), (0,4), (3,4), (2,5) 0-indexed.
 </pre>
 
 <p><strong class="example">Example 2:</strong></p>
 
-<pre><strong>Input:</strong> nums = [1,1,1,1]
+<pre style="background-color: rgb(193, 230, 198);"><strong>Input:</strong> nums = [1,1,1,1]
 <strong>Output:</strong> 6
 <strong>Explanation:</strong> Each pair in the array are <em>good</em>.
 </pre>
 
 <p><strong class="example">Example 3:</strong></p>
 
-<pre><strong>Input:</strong> nums = [1,2,3]
+<pre style="background-color: rgb(193, 230, 198);"><strong>Input:</strong> nums = [1,2,3]
 <strong>Output:</strong> 0
 </pre>
 
