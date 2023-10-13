@@ -7,7 +7,7 @@
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
 
-<pre><strong>Input:</strong> cost = [10,<u>15</u>,20]
+<pre style="background-color: rgb(193, 230, 198);"><strong>Input:</strong> cost = [10,<u>15</u>,20]
 <strong>Output:</strong> 15
 <strong>Explanation:</strong> You will start at index 1.
 - Pay 15 and climb two steps to reach the top.
@@ -16,7 +16,7 @@ The total cost is 15.
 
 <p><strong class="example">Example 2:</strong></p>
 
-<pre><strong>Input:</strong> cost = [<u>1</u>,100,<u>1</u>,1,<u>1</u>,100,<u>1</u>,<u>1</u>,100,<u>1</u>]
+<pre style="background-color: rgb(193, 230, 198);"><strong>Input:</strong> cost = [<u>1</u>,100,<u>1</u>,1,<u>1</u>,100,<u>1</u>,<u>1</u>,100,<u>1</u>]
 <strong>Output:</strong> 6
 <strong>Explanation:</strong> You will start at index 0.
 - Pay 1 and climb two steps to reach index 2.
