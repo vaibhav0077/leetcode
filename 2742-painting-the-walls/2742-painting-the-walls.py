@@ -1,6 +1,7 @@
 class Solution:
     def paintWalls(self, cost: List[int], time: List[int]) -> int:
         dp = {}
+        
         def sol(i, remain):
             if remain <= 0:
                 return 0
